@@ -14,7 +14,7 @@ public class ToDoItemController {
         
         @GetMapping("/")
         public ModelAndView index(){
-            logger.debug("request to GET index");
+            logger.info("request to GET index");
             ModelAndView modelAndView = new ModelAndView("index");
             return modelAndView; 
         }
